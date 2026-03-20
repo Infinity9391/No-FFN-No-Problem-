@@ -70,9 +70,8 @@ All tasks generate continuous functions on compact domains, matching the paper's
 
 ### Attention-Only Matches or Beats Standard Transformers
 
-<p align="center">
-  <img src="figures/icl_comparison.png" alt="ICL Comparison" width="700"/>
-</p>
+![Image Alt](https://github.com/Infinity9391/No-FFN-No-Problem-/blob/main/icl_comparison.png?raw=true)
+
 
 The attention only model outperforms the standard transformer on every single task:
 
@@ -89,9 +88,10 @@ The **linear task shows the most dramatic gap**   the attention only model cuts 
 
 ### Training Dynamics
 
-<p align="center">
-  <img src="figures/training_curves.png" alt="Training Curves" width="700"/>
-</p>
+
+![Image Alt](https://github.com/Infinity9391/No-FFN-No-Problem-/blob/main/training_curves.png?raw=true)
+
+
 
 - **Left:** Training loss and eval MSE both converge smoothly over 5,000 steps
 - **Right:** R² climbs from ~0.3 to ~0.88, showing the model progressively learns to regress from context
