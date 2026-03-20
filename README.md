@@ -176,6 +176,4 @@ AttentionPure/
 
 
 
-## License
 
-MIT
