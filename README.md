@@ -170,7 +170,7 @@ AttentionPure/
 
 - **Attention is more than mixing.** Softmax attention functions as an inherent piecewise linear approximator, using a near-one-hot interpolation selection mechanism to approximate arbitrary continuous functions.
 
-- **The extra parameters from FFN blocks can hurt.** The standard transformer consistently underperforms despite having the same parameter budget  my guess is that  the FFN parameters may make optimization harder without adding useful expressivity for ICL.
+- **The extra parameters from FFN blocks may not be necessary.** The standard transformer consistently underperforms despite having the same parameter budget  my guess is that  the FFN parameters may make optimization harder without adding useful expressivity for ICL.
 
 ---
 
