@@ -1,6 +1,6 @@
-# AttentionPure
+# No FFNs? Maybe that's not a problem!
 
-> **Empirical validation that softmax attention alone — without FFN/MLP blocks — is a universal in-context learner.**
+> **Empirical validation that softmax attention alone  without FFN/MLP blocks  is a universal in-context learner.**
 
 This project is based on  [Universal Approximation with Softmax Attention (Hu et al., 2025)](https://arxiv.org/abs/2504.15956) through controlled experiments comparing attention-only transformers against standard transformers across multiple in-context learning task families.
 
