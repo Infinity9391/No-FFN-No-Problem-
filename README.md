@@ -36,11 +36,11 @@ Episode = [(x₁, y₁), (x₂, y₂), ..., (x₂₀, y₂₀), (x_query, ?)]
                                              Model must predict this
 ```
 
-1. **Sample a random function** — e.g., random weights for a linear function, random frequency for a sine wave
-2. **Generate 20 labeled examples** — inputs drawn uniformly from [−3, 3]⁵, labels computed from the random function + small noise
-3. **Mask the query label** — the model sees the context pairs and must predict the query output
+1. **Sample a random function** : e.g., random weights for a linear function, random frequency for a sine wave
+2. **Generate 20 labeled examples** : inputs drawn uniformly from [−3, 3]⁵, labels computed from the random function + small noise
+3. **Mask the query label** : the model sees the context pairs and must predict the query output
 
-Since the function changes every batch, the model cannot memorize — it must perform genuine in-context learning by examining the examples and generalizing.
+Since the function changes every batch, the model cannot memorize there  it MUST perform genuine in-context learning by examining the examples and generalizing.
 
 ### Two Models, Fair Comparison
 
